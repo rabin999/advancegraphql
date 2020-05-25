@@ -1,0 +1,28 @@
+{
+  "name": "apolloserver1",
+  "version": "1.0.0",
+  "description": "",
+  "nodeOption": {
+    "heap": 1024
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=local npx nodemon --max_old_space_size=$npm_package_nodeOption_heap index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.13.1",
+    "apollo-server-express": "2.13.1",
+    "express": "4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-fields": "2.0.3",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "concurrently": "5.2.0",
+    "nodemon": "^2.0.4",
+    "rimraf": "^3.0.2"
+  }
+}
