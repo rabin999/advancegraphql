@@ -1,4 +1,4 @@
-# advancegraphql
+# Advance GraphQL
 GraphQL with Apollo Server, MongoDB
 
 ## Getting Started
